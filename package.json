@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "vpelkonen",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Website for the software engineer and consultant Ville Pelkonen.",
+  "version": "1.0.0",
+  "author": "Ville Pelkonen <vepelkonen@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
