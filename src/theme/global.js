@@ -1,9 +1,16 @@
 import { createGlobalStyle } from "styled-components"
+import COLORS from '../constants/colors'
 
 export default createGlobalStyle`
   html, body, #___gatsby, #gatsby-focus-wrapper {
     display: flex;
     flex: 1;
+  }
+
+  body {
+    font-family: sans-serif;
+    color: ${COLORS.raven};
+    background-color: ${COLORS.paper};
   }
 `
 
