@@ -27,29 +27,46 @@ export default () => (
     <p></p>
     <p>I craft sites and apps for the web and beyond</p>
     <p>
-      in <B>Helsinki</B> mainly with <B>React</B>, <B>React Native</B>, <B>TypeScript</B>, <B>Gatsby</B> and <B>Netlify</B>.
+      in <B>Helsinki</B> mainly with <B>React</B>, <B>React Native</B>,{" "}
+      <B>TypeScript</B>, <B>Gatsby</B> and <B>Netlify</B>.
     </p>
-    <p>
-      I have <B>6+ years of experience</B> in frontend and mobile development. I
-      write clean and tested code, have my CIs and CDs under control, build
-      accessible user interfaces, and focus on making data useful.
-    </p>
-    <p>
-      At the moment I work as a <B>Senior Software Engineer</B> and{" "}
-      <B>Web Tech Lead</B> at <a href="https://qvik.com">Qvik</a>. During my career, I've working for clients such as <B>Microsoft</B>,{" "}
-      <B>Yle</B> and <B>St1</B>.
-    </p>
-    <p>
-      In addition, I consult teams and companies in <B>accessibility</B>,{" "}
-      <B>empathic communication</B> and <B>agile project management</B>. I
-      also speak in events.
-    </p>
-    <p>
-      If you have challenges related to the above, let me know
-      at <a href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</a>!
-    </p>
-    <a href="https://github.com/vpelkonen">GitHub</a>
-    <a href="https://linkedin.com/in/vpelkonen">LinkedIn</a>
+    <section>
+      <p>
+        I have <B>6+ years of experience</B> in frontend and mobile development.
+        I write clean and tested code, have my CIs and CDs under control, build
+        accessible user interfaces, and focus on making data useful.
+      </p>
+      <p>
+        At the moment I work as a <B>Senior Software Engineer</B> and{" "}
+        <B>Web Tech Lead</B> at <a href="https://qvik.com">Qvik</a>. During my
+        career, I've working for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
+        and <B>St1</B>.
+      </p>
+      <p>
+        In addition, I consult teams and companies in <B>accessibility</B>,{" "}
+        <B>empathic communication</B> and <B>agile project management</B>. I
+        also speak in events.
+      </p>
+    </section>
+    <section>
+      <p>If you have challenges related to the above, let me know:</p>
+      <ul>
+        <li>
+          <B>Email:</B>{" "}
+          <a href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</a>
+        </li>
+        <li>
+          <B>GitHub:</B> <a href="https://github.com/vpelkonen">vpelkonen</a>
+        </li>
+        <li>
+          <B>LinkedIn:</B>{" "}
+          <a href="https://linkedin.com/in/vpelkonen">vpelkonen</a>
+        </li>
+        <li>
+          <B>Twitter:</B> <a href="https://twitter.com/perukonen">perukonen</a>
+        </li>
+      </ul>
+    </section>
     <p>
       Check out{" "}
       <a href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">

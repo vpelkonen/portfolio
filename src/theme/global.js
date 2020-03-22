@@ -64,6 +64,7 @@ export const CSSReset = createGlobalStyle`
 
   ul,
   ol {
+    padding: 0;
     list-style-type: none;
   }
 
