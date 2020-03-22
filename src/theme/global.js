@@ -19,6 +19,7 @@ export default createGlobalStyle`
   html, body, #___gatsby, #gatsby-focus-wrapper {
     display: flex;
     flex: 1;
+    min-height: 100%;
   }
 
   html {
@@ -35,7 +36,7 @@ export default createGlobalStyle`
       COLORS[`${getTimeOfDay()}Primary`]
     },  ${COLORS[`${getTimeOfDay()}Secondary`]});
     background-size: 250% 250%;
-    animation: ${backgroundAnimation} 5s ease infinite;
+    animation: ${backgroundAnimation} 20s ease infinite;
   }
 
   p {
@@ -47,7 +48,6 @@ export const CSSReset = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
   }

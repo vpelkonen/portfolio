@@ -10,7 +10,7 @@ const Wrapper = styled.div`
 `
 
 const Main = styled.main`
-  max-width: 800px;
+  max-width: 760px;
   padding: 10% 1rem 1rem 1rem;
 `
 
