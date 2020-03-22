@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import COLORS from "../constants/colors"
 import GREETINGS from '../constants/greetings'
 import { getTimeOfDay } from "../utils/time"
 
@@ -13,6 +14,13 @@ const Title = styled.h1`
 
 const B = styled.span`
   font-weight: 700;
+`
+
+const ExternalLink = styled.a`
+  color: ${COLORS.ocean};
+  &:visited {
+    color: ${COLORS.miasma};
+  }
 `
 
 const getTimeBasedGreeting = () => GREETINGS[getTimeOfDay()]
@@ -36,7 +44,7 @@ export default () => (
       </p>
       <p>
         At the moment I work as a <B>Senior Software Engineer</B> and{" "}
-        <B>Web Tech Lead</B> at <a href="https://qvik.com">Qvik</a>. During my
+        <B>Web Tech Lead</B> at <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
         career, I've working for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
         and <B>St1</B>.
       </p>
@@ -51,33 +59,33 @@ export default () => (
       <ul>
         <li>
           <B>Email:</B>{" "}
-          <a href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</a>
+          <ExternalLink href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</ExternalLink>
         </li>
         <li>
-          <B>GitHub:</B> <a href="https://github.com/vpelkonen">vpelkonen</a>
+          <B>GitHub:</B> <ExternalLink href="https://github.com/vpelkonen">vpelkonen</ExternalLink>
         </li>
         <li>
           <B>LinkedIn:</B>{" "}
-          <a href="https://linkedin.com/in/vpelkonen">vpelkonen</a>
+          <ExternalLink href="https://linkedin.com/in/vpelkonen">vpelkonen</ExternalLink>
         </li>
         <li>
-          <B>Twitter:</B> <a href="https://twitter.com/perukonen">perukonen</a>
+          <B>Twitter:</B> <ExternalLink href="https://twitter.com/perukonen">perukonen</ExternalLink>
         </li>
       </ul>
     </section>
     <p>
       Check out{" "}
-      <a href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
+      <ExternalLink href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
         this interactive story
-      </a>{" "}
+      </ExternalLink>{" "}
       or{" "}
-      <a
+      <ExternalLink
         href="https://github.com/vpelkonen/portfolio"
         target="_blank"
         rel="noopener noreferrer"
       >
         this website code
-      </a>{" "}
+      </ExternalLink>{" "}
       to see some of my public work.
     </p>
   </Layout>
