@@ -9,12 +9,12 @@ import GREETINGS from '../constants/greetings'
 import { getTimeOfDay } from "../utils/time"
 
 const Title = styled.h1`
-  font-size: 3.4rem;
-  font-weight: 400;
-  letter-spacing: 3px;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Roboto Slab", serif;
   @media (max-width: 768px) {
-    font-size: 2.6rem;
-    letter-spacing: 2px;
+    font-size: 2.5rem;
   }
 `
 
