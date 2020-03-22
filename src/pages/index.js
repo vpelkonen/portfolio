@@ -55,11 +55,15 @@ export default () => (
     </p>
     <p>
       You can see some of my work by checking out{" "}
-      <a href="https://github.com/vpelkonen/portfolio" target="_blank">
+      <a
+        href="https://github.com/vpelkonen/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         the open source code of this website
       </a>{" "}
       or{" "}
-      <a href="https://2030.qvik.com" target="_blank">
+      <a href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
         what it's like to be a consultant in 2030
       </a>
       .
