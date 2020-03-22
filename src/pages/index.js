@@ -27,8 +27,7 @@ export default () => (
     <p></p>
     <p>I craft sites and apps for the web and beyond</p>
     <p>
-      in <B>Helsinki</B> with <B>React</B> and <B>React Native</B>, but also
-      with <B>TypeScript</B>, <B>Gatsby</B> and <B>Netlify</B>.
+      in <B>Helsinki</B> mainly with <B>React</B>, <B>React Native</B>, <B>TypeScript</B>, <B>Gatsby</B> and <B>Netlify</B>.
     </p>
     <p>
       I have <B>6+ years of experience</B> in frontend and mobile development. I
