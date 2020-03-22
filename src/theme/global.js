@@ -1,5 +1,12 @@
 import { createGlobalStyle } from "styled-components"
 
+export default createGlobalStyle`
+  html, body, #___gatsby, #gatsby-focus-wrapper {
+    display: flex;
+    flex: 1;
+  }
+`
+
 export const CSSReset = createGlobalStyle`
   body {
     padding: 0;

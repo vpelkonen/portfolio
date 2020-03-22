@@ -2,10 +2,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import styled from 'styled-components'
 import { useStaticQuery, graphql } from "gatsby"
-import { CSSReset } from '../theme/global'
+import GlobalStyles, { CSSReset } from '../theme/global'
 
 const Main = styled.main`
-  align-self: center;
   max-width: 920px;
 `
 
@@ -23,6 +22,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <CSSReset />
+      <GlobalStyles />
       <Main>{children}</Main>
     </>
   )
