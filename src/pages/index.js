@@ -27,8 +27,8 @@ export default () => (
     <p></p>
     <p>I craft sites and apps for the web and beyond</p>
     <p>
-      in <B>Helsinki</B> mainly with <B>React</B>, <B>React Native</B>,{" "}
-      <B>TypeScript</B>, <B>Gatsby</B> and <B>Netlify</B>.
+      in <B>Helsinki</B> mainly with <B>JavaScript</B>, <B>React</B>, <B>React Native</B>,{" "}
+      <B>Redux</B>, <B>Gatsby</B> and <B>Netlify</B>.
     </p>
     <section>
       <p>

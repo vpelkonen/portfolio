@@ -25,8 +25,11 @@ export default createGlobalStyle`
   html {
     font-size: 18px;
     line-height: 1.5;
-    padding: .5rem;
+    padding: 1rem;
     background-color: ${COLORS.paper};
+    @media (max-width: 768px) {
+      padding: .5rem;
+    }
   }
 
   body {
