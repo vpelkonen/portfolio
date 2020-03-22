@@ -18,6 +18,10 @@ const B = styled.span`
 
 const ExternalLink = styled.a`
   color: ${COLORS.ocean};
+  outline: none;
+  &:focus, &:hover {
+    text-decoration: underline;
+  }
   &:visited {
     color: ${COLORS.miasma};
   }
