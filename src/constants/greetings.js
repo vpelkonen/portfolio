@@ -1,6 +1,6 @@
 export default {
   morning: 'Good morning friend',
-  afternoon: 'Hi friend',
-  evening: 'Good evening',
+  afternoon: 'Good afternoon friend',
+  evening: 'Good evening friend',
   night: 'Hello night owl',
 }

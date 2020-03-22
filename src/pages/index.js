@@ -3,7 +3,6 @@ import styled from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import LINKS from '../constants/links'
 import GREETINGS from '../constants/greetings'
 
 const Bold = styled.span`
@@ -29,7 +28,7 @@ export default () => (
     <SEO title="Ville Pelkonen | Software Development & Consultancy" />
     <Bold>{getTimeBasedGreeting()}, I'm</Bold>
     <h1>Ville Pelkonen, </h1>
-    <p>a Helsinki based software engineer.</p>
+    <p>a Helsinki-based software engineer.</p>
     <p>I craft sites and apps for the web and beyond.</p>
     <p>
       Currently, I do that with <Bold>React</Bold> and <Bold>React Native</Bold>
@@ -41,8 +40,7 @@ export default () => (
     </p>
     <p>
       At the moment I work as a <Bold>Senior Software Engineer</Bold> and{" "}
-      <Bold>Web Tech Lead</Bold> at{" "}
-      <a href={LINKS.qvik.url}>{LINKS.qvik.text}</a>.
+      <Bold>Web Tech Lead</Bold> at <a href="https://qvik.com">Qvik</a>.
     </p>
     <p>
       During my career, I've working for clients such as <Bold>Microsoft</Bold>,{" "}
@@ -50,30 +48,31 @@ export default () => (
     </p>
     <p>
       Besides my day job, I consult teams and companies in{" "}
-      <Bold>communication</Bold> and <Bold>agile project management</Bold>. I
-      also speak in events.
-    </p>
-    <p>
-      You can see some of my work by checking out{" "}
-      <a
-        href="https://github.com/vpelkonen/portfolio"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        the open source code of this website
-      </a>{" "}
-      or{" "}
-      <a href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
-        what it's like to be a consultant in 2030
-      </a>
-      .
+      <Bold>accessibility</Bold>, <Bold>empathetic communication</Bold> and{" "}
+      <Bold>agile project management</Bold>. I also speak about these topics in
+      events.
     </p>
     <p>
       I’d be happy to help you in challenges related to the above! Let me know
       at <a href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</a> and
       let’s take it further from there.
     </p>
-    <a href={LINKS.linkedIn.url}>{LINKS.linkedIn.text}</a>
-    <a href={LINKS.gitHub.url}>{LINKS.gitHub.text}</a>
+    <a href="https://github.com/vpelkonen">GitHub</a>
+    <a href="https://linkedin.com/in/vpelkonen">LinkedIn</a>
+    <p>
+      Check out{" "}
+      <a href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
+        this interactive story
+      </a>{" "}
+      or{" "}
+      <a
+        href="https://github.com/vpelkonen/portfolio"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        this website code
+      </a>{" "}
+      to see some of my public work.
+    </p>
   </Layout>
 )

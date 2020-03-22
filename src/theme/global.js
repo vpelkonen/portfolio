@@ -12,6 +12,10 @@ export default createGlobalStyle`
     color: ${COLORS.raven};
     background-color: ${COLORS.paper};
   }
+
+  p {
+    margin: 0 0 1rem 0;
+  }
 `
 
 export const CSSReset = createGlobalStyle`
@@ -21,8 +25,8 @@ export const CSSReset = createGlobalStyle`
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    font-size: 16px;
-    line-height: 1.4;
+    font-size: 18px;
+    line-height: 1.5;
   }
 
   a {
