@@ -8,7 +8,7 @@ export default createGlobalStyle`
   }
 
   body {
-    font-family: sans-serif;
+    font-family: 'Lato', sans-serif;
     color: ${COLORS.raven};
     background-color: ${COLORS.paper};
   }
