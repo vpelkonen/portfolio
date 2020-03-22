@@ -24,7 +24,7 @@ const ExternalLink = styled.a`
     text-decoration: underline;
   }
   &:visited {
-    color: ${COLORS.miasma};
+    color: ${COLORS.ocean};
   }
 `
 
