@@ -3,9 +3,7 @@ import styled from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import COLORS from '../constants/colors'
 import GREETINGS from '../constants/greetings'
-import TIMES from '../constants/times'
 import { getTimeOfDay } from "../utils/time"
 
 const Title = styled.h1`
