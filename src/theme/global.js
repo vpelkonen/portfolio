@@ -40,6 +40,7 @@ export default createGlobalStyle`
     },  ${COLORS[`${getTimeOfDay()}Secondary`]});
     background-size: 250% 250%;
     animation: ${backgroundAnimation} 20s ease infinite;
+    transition: 1s background;
   }
 
   p {
