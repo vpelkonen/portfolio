@@ -6,6 +6,7 @@ import ProfileImage from '../components/ProfileImage'
 import SEO from "../components/SEO"
 import COLORS from "../constants/colors"
 import GREETINGS from '../constants/greetings'
+import TIMES from '../constants/times'
 import { getTimeOfDay } from "../utils/time"
 
 const Title = styled.h1`
@@ -70,8 +71,8 @@ export default () => (
         At the moment I work as a <B>Senior Software Engineer</B> and{" "}
         <B>Web Tech Lead</B> at{" "}
         <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
-        career, I've worked for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
-        and <B>St1</B>.
+        career, I've worked for clients such as <B>Microsoft</B>, <B>Yle</B> and{" "}
+        <B>St1</B>.
       </p>
       <p>
         In addition, I consult teams and companies in <B>accessibility</B>,{" "}
@@ -127,6 +128,6 @@ export default () => (
       </ExternalLink>{" "}
       to see some of my public work.
     </p>
-    <Heart>🖤</Heart>
+    <Heart>{getTimeOfDay() === TIMES.night ? "❤️" : "🖤"}</Heart>
   </Layout>
 )
