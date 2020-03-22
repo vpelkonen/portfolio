@@ -9,7 +9,8 @@ import { getTimeOfDay } from "../utils/time"
 
 const Title = styled.h1`
   font-size: 3.4rem;
-  font-weight: 300;
+  font-weight: 400;
+  letter-spacing: 3.6px;
 `
 
 const B = styled.span`
@@ -73,7 +74,7 @@ export default () => (
           <ExternalLink href="https://linkedin.com/in/vpelkonen">vpelkonen</ExternalLink>
         </li>
         <li>
-          <B>Twitter:</B> <ExternalLink href="https://twitter.com/perukonen">perukonen</ExternalLink>
+          <B>Twitter:</B> <ExternalLink href="https://twitter.com/perukonen">@perukonen</ExternalLink>
         </li>
       </ul>
     </section>

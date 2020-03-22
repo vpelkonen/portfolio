@@ -16,6 +16,6 @@ export default {
   afternoonSecondary: "#FFED9F",
   afternoonForeground: raven,
   eveningPrimary: "#ffe0bf",
-  eveningSecondary: "#Ff7153",
+  eveningSecondary: "#ee9153",
   eveningForeground: raven,
 }
