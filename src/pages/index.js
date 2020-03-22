@@ -33,6 +33,19 @@ const ExternalLink = styled.a`
   }
 `
 
+const Heart = styled.span`
+  bottom: 2rem;
+  left: 2rem;
+  opacity: .5;
+  transition: 150ms opacity;
+  &:hover {
+    opacity: 1.0;
+  }
+  @media (min-width: 769px) {
+    position: absolute;
+  }
+`
+
 const getTimeBasedGreeting = () => GREETINGS[getTimeOfDay()]
 
 export default () => (
@@ -57,7 +70,7 @@ export default () => (
         At the moment I work as a <B>Senior Software Engineer</B> and{" "}
         <B>Web Tech Lead</B> at{" "}
         <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
-        career, I've working for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
+        career, I've worked for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
         and <B>St1</B>.
       </p>
       <p>
@@ -114,5 +127,6 @@ export default () => (
       </ExternalLink>{" "}
       to see some of my public work.
     </p>
+    <Heart>🖤</Heart>
   </Layout>
 )
