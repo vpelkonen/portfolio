@@ -5,6 +5,7 @@ export default {
   raven,
   paper,
   ocean: "#2469FF",
+  shadow: "rgba(20,20,20,.3)",
   nightPrimary: "#1D1E2D",
   nightSecondary: raven,
   nightForeground: paper,

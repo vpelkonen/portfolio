@@ -11,7 +11,10 @@ const Wrapper = styled.div`
 
 const Main = styled.main`
   max-width: 760px;
-  padding: 10% 1rem 1rem 1rem;
+  padding: 1.5rem;
+  @media(min-width: 769px) {
+    padding-top: 10%;
+  }
 `
 
 export default ({ children }) => (

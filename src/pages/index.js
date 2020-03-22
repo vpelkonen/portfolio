@@ -1,8 +1,9 @@
 import React from "react"
 import styled from 'styled-components'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Layout from "../components/Layout"
+import ProfileImage from '../components/ProfileImage'
+import SEO from "../components/SEO"
 import COLORS from "../constants/colors"
 import GREETINGS from '../constants/greetings'
 import { getTimeOfDay } from "../utils/time"
@@ -11,6 +12,10 @@ const Title = styled.h1`
   font-size: 3.4rem;
   font-weight: 400;
   letter-spacing: 3px;
+  @media (max-width: 768px) {
+    font-size: 2.6rem;
+    letter-spacing: 2px;
+  }
 `
 
 const B = styled.span`
@@ -33,13 +38,14 @@ const getTimeBasedGreeting = () => GREETINGS[getTimeOfDay()]
 export default () => (
   <Layout>
     <SEO title="Ville Pelkonen | Software Development & Consultancy" />
+    <ProfileImage />
     <B>{getTimeBasedGreeting()}, I'm</B>
     <Title>Ville Pelkonen</Title>
     <p></p>
     <p>I craft sites and apps for the web and beyond</p>
     <p>
-      in <B>Helsinki</B> mainly with <B>JavaScript</B>, <B>React</B>, <B>React Native</B>,{" "}
-      <B>Redux</B>, <B>Gatsby</B> and <B>Netlify</B>.
+      in <B>Helsinki</B> mainly with <B>JavaScript</B>, <B>React</B>,{" "}
+      <B>React Native</B>, <B>Redux</B>, <B>Gatsby</B> and <B>Netlify</B>.
     </p>
     <section>
       <p>
@@ -49,7 +55,8 @@ export default () => (
       </p>
       <p>
         At the moment I work as a <B>Senior Software Engineer</B> and{" "}
-        <B>Web Tech Lead</B> at <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
+        <B>Web Tech Lead</B> at{" "}
+        <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
         career, I've working for clients such as <B>Microsoft</B>, <B>Yle</B>{" "}
         and <B>St1</B>.
       </p>
@@ -64,23 +71,37 @@ export default () => (
       <ul>
         <li>
           <B>Email:</B>{" "}
-          <ExternalLink href="mailto:vepelkonen@gmail.com">vepelkonen@gmail.com</ExternalLink>
+          <ExternalLink href="mailto:vepelkonen@gmail.com">
+            vepelkonen@gmail.com
+          </ExternalLink>
         </li>
         <li>
-          <B>GitHub:</B> <ExternalLink href="https://github.com/vpelkonen">vpelkonen</ExternalLink>
+          <B>GitHub:</B>{" "}
+          <ExternalLink href="https://github.com/vpelkonen">
+            vpelkonen
+          </ExternalLink>
         </li>
         <li>
           <B>LinkedIn:</B>{" "}
-          <ExternalLink href="https://linkedin.com/in/vpelkonen">vpelkonen</ExternalLink>
+          <ExternalLink href="https://linkedin.com/in/vpelkonen">
+            vpelkonen
+          </ExternalLink>
         </li>
         <li>
-          <B>Twitter:</B> <ExternalLink href="https://twitter.com/perukonen">@perukonen</ExternalLink>
+          <B>Twitter:</B>{" "}
+          <ExternalLink href="https://twitter.com/perukonen">
+            @perukonen
+          </ExternalLink>
         </li>
       </ul>
     </section>
     <p>
       Check out{" "}
-      <ExternalLink href="https://2030.qvik.com" target="_blank" rel="noopener noreferrer">
+      <ExternalLink
+        href="https://2030.qvik.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         this interactive story
       </ExternalLink>{" "}
       or{" "}
