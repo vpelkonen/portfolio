@@ -7,13 +7,14 @@ import COLORS from "../constants/colors"
 
 const Profile = styled(GatsbyImage)`
   border-radius: 50%;
-  width: 160px;
+  width: 180px;
   border: 5px solid ${COLORS.paper};
   align-self: center;
   margin: 2rem auto;
   box-shadow: 1px 2px 6px 1px ${COLORS.shadow};
   @media (min-width: 769px) {
     position: absolute !important;
+    width: 130px;
     right: 3rem;
     top: 1rem;
   }
@@ -24,7 +25,7 @@ export default () => {
     query {
       placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 320) {
+          fluid(maxWidth: 360) {
             ...GatsbyImageSharpFluid
           }
         }
