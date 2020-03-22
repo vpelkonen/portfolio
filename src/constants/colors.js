@@ -1,4 +1,19 @@
+const raven = '#11121A'
+const paper = '#FBFBFB'
+
 export default {
-  raven: '#11121A',
-  paper: '#FBFBFB'
+  raven,
+  paper,
+  nightPrimary: "#1D1E2D",
+  nightSecondary: raven,
+  nightForeground: paper,
+  morningPrimary: "#ffeedd",
+  morningSecondary: "#ffae5c",
+  morningForeground: raven,
+  afternoonPrimary: "#CFDACF",
+  afternoonSecondary: "#FFDD9F",
+  afternoonForeground: raven,
+  eveningPrimary: "#ffb08f",
+  eveningSecondary: "#Ff7153",
+  eveningForeground: raven,
 }

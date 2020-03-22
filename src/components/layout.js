@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 
 const Main = styled.main`
   max-width: 800px;
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 10% 1rem 1rem 1rem;
 `
 
 export default ({ children }) => (

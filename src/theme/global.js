@@ -1,5 +1,19 @@
-import { createGlobalStyle } from "styled-components"
+import { createGlobalStyle, keyframes } from "styled-components"
+
 import COLORS from '../constants/colors'
+import { getTimeOfDay } from '../utils/time'
+
+const backgroundAnimation = keyframes`
+  0% {
+    background-position: 50% 0%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0%;
+  }
+`
 
 export default createGlobalStyle`
   html, body, #___gatsby, #gatsby-focus-wrapper {
@@ -7,10 +21,21 @@ export default createGlobalStyle`
     flex: 1;
   }
 
+  html {
+    font-size: 18px;
+    line-height: 1.5;
+    padding: .5rem;
+    background-color: ${COLORS.paper};
+  }
+
   body {
     font-family: 'Lato', sans-serif;
-    color: ${COLORS.raven};
-    background-color: ${COLORS.paper};
+    color: ${COLORS[`${getTimeOfDay()}Foreground`]};
+    background: linear-gradient(180deg, ${
+      COLORS[`${getTimeOfDay()}Primary`]
+    },  ${COLORS[`${getTimeOfDay()}Secondary`]});
+    background-size: 250% 250%;
+    animation: ${backgroundAnimation} 5s ease infinite;
   }
 
   p {
@@ -25,8 +50,6 @@ export const CSSReset = createGlobalStyle`
     min-height: 100vh;
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
-    font-size: 18px;
-    line-height: 1.5;
   }
 
   a {

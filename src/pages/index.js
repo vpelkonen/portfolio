@@ -3,35 +3,31 @@ import styled from 'styled-components'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import COLORS from '../constants/colors'
 import GREETINGS from '../constants/greetings'
+import TIMES from '../constants/times'
+import { getTimeOfDay } from "../utils/time"
+
+const Title = styled.h1`
+  font-size: 3.6rem;
+  font-weight: 300;
+`
 
 const Bold = styled.span`
   font-weight: 700;
 `
 
-const getTimeBasedGreeting = () => {
-  const hour = new Date().getHours()
-  if (hour <= 5) {
-    return GREETINGS.night
-  }
-  if (hour >= 6 && hour < 12) {
-    return GREETINGS.morning
-  }
-  if (hour >= 12 && hour < 19) {
-    return GREETINGS.afternoon
-  }
-  return GREETINGS.evening
-}
+const getTimeBasedGreeting = () => GREETINGS[getTimeOfDay()]
 
 export default () => (
   <Layout>
     <SEO title="Ville Pelkonen | Software Development & Consultancy" />
-    <Bold>{getTimeBasedGreeting()}, I'm</Bold>
-    <h1>Ville Pelkonen, </h1>
-    <p>a Helsinki-based software engineer.</p>
+    <span>{getTimeBasedGreeting()}, I'm</span>
+    <Title>Ville Pelkonen</Title>
+    <p></p>
     <p>I craft sites and apps for the web and beyond.</p>
     <p>
-      Currently, I do that with <Bold>React</Bold> and <Bold>React Native</Bold>
+      Currently, I do that in <Bold>Helsinki</Bold> with <Bold>React</Bold> and <Bold>React Native</Bold>
       . I also like e.g. <Bold>TypeScript</Bold>, <Bold>Gatsby</Bold> and{" "}
       <Bold>Netlify</Bold>, and have 6+ years of experience from various
       technologies. I write clean and tested code, have my CIs and CDs under
