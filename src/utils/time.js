@@ -2,7 +2,6 @@ import TIMES from '../constants/times'
 
 export const getTimeOfDay = () => {
   const hour = new Date().getHours()
-  console.log(hour)
   if (hour <= 5) {
     return TIMES.night
   }
