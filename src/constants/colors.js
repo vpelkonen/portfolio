@@ -9,7 +9,7 @@ export default {
   nightPrimary: "#2F3E45",
   nightSecondary: raven,
   nightForeground: paper,
-  morningPrimary: "#ffeedd",
+  morningPrimary: "#eeeeff",
   morningSecondary: "#ffae5c",
   morningForeground: raven,
   afternoonPrimary: "#CFDAEF",

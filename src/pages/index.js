@@ -56,10 +56,10 @@ export default () => (
     <B>{getTimeBasedGreeting()}, I'm</B>
     <Title>Ville Pelkonen</Title>
     <p></p>
-    <p>I craft sites and apps for the web and beyond</p>
+    <p>I craft sites and apps for the web and beyond.</p>
     <p>
-      in <B>Helsinki</B> mainly with <B>JavaScript</B>, <B>React</B>,{" "}
-      <B>React Native</B>, <B>Redux</B>, <B>Gatsby</B> and <B>Netlify</B>.
+      I work mainly with <B>JavaScript</B>, <B>React</B>, <B>React Native</B>,{" "}
+      <B>Gatsby</B> and <B>Netlify</B>.
     </p>
     <section>
       <p>
@@ -70,9 +70,9 @@ export default () => (
       <p>
         At the moment I work as a <B>Senior Software Engineer</B> and{" "}
         <B>Web Tech Lead</B> at{" "}
-        <ExternalLink href="https://qvik.com">Qvik</ExternalLink>. During my
-        career, I've worked for clients such as <B>Microsoft</B>, <B>Yle</B> and{" "}
-        <B>St1</B>.
+        <ExternalLink href="https://qvik.com">Qvik</ExternalLink>, in{" "}
+        <B>Helsinki</B>. During my career, I've worked for clients such as{" "}
+        <B>Microsoft</B>, <B>Yle</B> and <B>St1</B>.
       </p>
       <p>
         In addition, I consult teams and companies in <B>accessibility</B>,{" "}
