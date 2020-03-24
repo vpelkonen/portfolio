@@ -37,7 +37,7 @@ const getTimeBasedGreeting = () => GREETINGS[getTimeOfDay()]
 
 export default () => (
   <Layout>
-    <SEO title="Ville Pelkonen | Software Development & Consultancy" />
+    <SEO />
     <ProfileImage />
     <B>{getTimeBasedGreeting()}, I'm</B>
     <Title>Ville Pelkonen</Title>

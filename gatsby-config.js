@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Ville Pelkonen | Software Development & Consultancy`,
-    description: `I craft sites and apps for the web and beyond; I also consult in communication and agile project managemnet.`,
-    author: `@gatsbyjs`,
+    title: "Ville Pelkonen | Software Development & Consultancy",
+    description: `I craft sites and apps for the web and beyond. I also consult, accessibility in communication and agile project managemnet.`,
+    author: `Ville Pelkonen`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -13,12 +13,12 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-web-font-loader',
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
         google: {
-          families: ['Lato', 'Roboto Slab']
-        }
-      }
+          families: ["Lato", "Roboto Slab"],
+        },
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
