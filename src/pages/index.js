@@ -6,7 +6,6 @@ import ProfileImage from '../components/ProfileImage'
 import SEO from "../components/SEO"
 import COLORS from "../constants/colors"
 import GREETINGS from '../constants/greetings'
-import TIMES from '../constants/times'
 import { getTimeOfDay } from "../utils/time"
 
 const Title = styled.h1`
