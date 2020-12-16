@@ -49,7 +49,7 @@ export default () => (
     </p>
     <section>
       <p>
-        I have <B>6+ years of experience</B> in frontend and mobile development.
+        I have <B>7+ years of experience</B> in front end and mobile development.
         I write clean and tested code, have my CIs and CDs under control, build
         accessible user interfaces, and focus on making data useful.
       </p>
@@ -85,12 +85,6 @@ export default () => (
           <B>LinkedIn:</B>{" "}
           <ExternalLink href="https://linkedin.com/in/vpelkonen">
             vpelkonen
-          </ExternalLink>
-        </li>
-        <li>
-          <B>Twitter:</B>{" "}
-          <ExternalLink href="https://twitter.com/perukonen">
-            @perukonen
           </ExternalLink>
         </li>
       </ul>
