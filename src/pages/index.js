@@ -44,26 +44,25 @@ export default () => (
     <p></p>
     <p>I craft sites and apps for the web and beyond.</p>
     <p>
-      I work mainly with <B>JavaScript</B>, <B>React</B>, <B>React Native</B>,{" "}
-      <B>Gatsby</B> and <B>Netlify</B>.
+      My deep expertise lies in <B>TypeScript</B>, <B>React</B> and <B>React Native</B>, but there's plenty more I can handle in the way of frontend and fullstack development.
     </p>
     <section>
       <p>
-        I have <B>7+ years of experience</B> in front end and mobile development.
+        I have <B>8+ years of experience</B> in creating software. 1M+ users enjoy apps directly influenced by my code and project guidance.
         I write clean and tested code, have my CIs and CDs under control, build
-        accessible user interfaces, and focus on making data useful.
+        accessible user interfaces, handle user experience with utmost care, and focus on making data useful.
       </p>
       <p>
-        At the moment I work as a <B>Senior Software Engineer</B> and{" "}
-        <B>Web Tech Lead</B> at{" "}
-        <ExternalLink href="https://qvik.com">Qvik</ExternalLink>, in{" "}
-        <B>Helsinki</B>. During my career, I've worked for clients such as{" "}
-        <B>Microsoft</B>, <B>Yle</B> and <B>St1</B>.
+        At the moment I work as a <B>Senior Software Engineer</B> and
+        <B> partner</B> at
+        <ExternalLink href="https://luotocompany.com"> Luoto Company</ExternalLink>, in
+        <B> Helsinki</B>. During my career, I've worked for clients such as
+        <B> Microsoft</B>, <B>Yle</B> and <B>St1</B>.
       </p>
       <p>
         In addition, I consult teams and companies in <B>accessibility</B>,{" "}
-        <B>empathic communication</B> and <B>agile project management</B>. I
-        also speak in events.
+        <B>empathetic communication</B> and <B>agile project management</B>. I
+        also occasionally speak in events.
       </p>
     </section>
     <section>
